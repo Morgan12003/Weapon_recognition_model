@@ -25,13 +25,13 @@ dataset/
 │   ├── images/
 │   ├── labels/
 ├── data.yaml
-├── frames/
-├── video/
-├── weapon/
+├── frames/ (cartella contenente frame dei video)
+├── video/  (cartella video )
+├── weapon/ (cartella con le immagini ritagliate con le armi)
 │   ├── knife/
-│   ├── knife_augmented/
+│   ├── knife_augmented/   (cartella ampliata con "amplia_dataset.py")
 │   ├── pistol/
-│   ├── pistol_augmented/
+│   ├── pistol_augmented/  (cartella ampliata con "amplia_dataset.py")
 │   ├── rifles/
-│   ├── rifles_augmented/
+│   ├── rifles_augmented/  (cartella ampliata con "amplia_dataset.py")
 ```
