@@ -1,0 +1,8 @@
+path: ../MODELLO MIO/dataset
+train: train/images
+val: val/images
+nc: 1
+names: ["weapon"]
+
+#AVVIA ADDESTRAMENTO
+#yolo train model=yolov8n.yaml data=dataset.yaml epochs=100 imgsz=640
