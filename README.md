@@ -29,9 +29,9 @@ dataset/
 ├── video/  (cartella video )
 ├── weapon/ (cartella con le immagini ritagliate con le armi)
 │   ├── knife/
-│   ├── knife_augmented/   (cartella ampliata con "amplia_dataset.py")
+│   ├── knife_augmented/   (cartella da ampliare con "amplia_dataset.py")
 │   ├── pistol/
-│   ├── pistol_augmented/  (cartella ampliata con "amplia_dataset.py")
+│   ├── pistol_augmented/  (cartella da ampliare con "amplia_dataset.py")
 │   ├── rifles/
-│   ├── rifles_augmented/  (cartella ampliata con "amplia_dataset.py")
+│   ├── rifles_augmented/  (cartella da ampliare con "amplia_dataset.py")
 ```
