@@ -4,7 +4,7 @@ EN:
 Weapon recognition model for a personal project based on **YOLOv8** and a **Python toolkit** to manage, apply, and label collected images.
 
 IT:
-Modello riconoscimento armi per progetto personale basato su YOLOv8 e toolkit scritto sul python per gestire, apliare ed etichettare le immagini raccolte.
+Modello riconoscimento armi per progetto personale basato su **YOLOv8** e **toolkit scritto sul python** per gestire, apliare ed etichettare le immagini raccolte.
 
 ## 📌 **Elenco Utilizzo Toolkit Python**
 
@@ -13,3 +13,23 @@ Modello riconoscimento armi per progetto personale basato su YOLOv8 e toolkit sc
 - **`etichette_automatiche`**: Permette di **etichettare automaticamente** le immagini già ritagliate e normalizzate.
 - **`scarica_immagini`**: Questo programma **cerca immagini online** utilizzando una chiave di ricerca e le scarica automaticamente sul computer.
 - **`verifica_img`**: Controlla le **dimensioni delle immagini**, ridimensionandole a **640px**, e verifica la **presenza dell'etichetta corrispondente** per ogni immagine. Se l'etichetta è assente, ne inserisce una normalizzata.
+
+## 📁 **Organizzazione delle cartelle**
+
+dataset/
+├── train/
+│   ├── images/
+│   ├── labels/
+├── val/
+│   ├── images/
+│   ├── labels/
+├── data.yaml
+├──frames/
+├──video/
+├──weapon/
+    ├── knife/
+    ├── knife_augmented/
+    ├── pistol/
+    ├── pistol_augmented/
+    ├── rifles/
+    ├── rifles_augmented/
