@@ -34,21 +34,27 @@ Questo progetto è stato realizzato in collaborazione da un piccolo team, con co
 ---
 
 ## 📁 **Organizzazione delle cartelle**
-
+```
 dataset/
-├── train/
-│   ├── images/
-│   ├── labels/
-├── val/
-│   ├── images/
-│   ├── labels/
-├── data.yaml
-├── frames/ (cartella contenente frame dei video)
-├── video/  (cartella video )
-├── weapon/ (cartella con le immagini ritagliate con le armi)
-│   ├── knife/
-│   ├── knife_augmented/   (cartella da ampliare con "amplia_dataset.py")
-│   ├── pistol/
-│   ├── pistol_augmented/  (cartella da ampliare con "amplia_dataset.py")
-│   ├── rifles/
-│   ├── rifles_augmented/  (cartella da ampliare con "amplia_dataset.py")
+├── train/                      # Dati di addestramento
+│   ├── images/                # Immagini di training
+│   └── labels/                # Etichette corrispondenti (formato YOLO)
+│
+├── val/                        # Dati di validazione
+│   ├── images/                # Immagini di validazione
+│   └── labels/                # Etichette corrispondenti
+│
+├── data.yaml                   # File di configurazione YOLOv8 (classi, percorsi, ecc.)
+│
+├── frames/                     # Frame estratti dai video (.mp4)
+│
+├── video/                      # Video sorgente usati per estrazione frame
+│
+├── weapon/                     # Immagini ritagliate contenenti armi
+│   ├── knife/                 # Coltelli originali
+│   ├── knife_augmented/      # Coltelli aumentati (via "amplia_dataset.py")
+│   ├── pistol/                # Pistole originali
+│   ├── pistol_augmented/     # Pistole aumentate
+│   ├── rifles/                # Fucili originali
+│   └── rifles_augmented/     # Fucili aumentati
+```
