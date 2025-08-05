@@ -34,6 +34,7 @@ Questo progetto è stato realizzato in collaborazione da un piccolo team, con co
 ---
 
 ## 📁 **Organizzazione delle cartelle**
+
 dataset/
 ├── train/
 │   ├── images/
