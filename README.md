@@ -18,7 +18,7 @@ Questo progetto è stato realizzato in collaborazione da un piccolo team, con co
 
 - **Morgan Scollo** – Project Lead & Developer (`@Morgan12003`)
 - **Manfredi Coppola** – Developer Facial recognition and geolocation (`@manfredicoppola`)
-- **Nicolò Di Marco** – Developer Alert system and text to speech
+- **Nicolò Di Marco** – Developer Alert system and text to speech (`@Nico_dimarco`)
 - **Matteo Fraello** – Developer Virtual drone
 
 ---
