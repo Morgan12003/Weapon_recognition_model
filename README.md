@@ -34,4 +34,20 @@ Questo progetto è stato realizzato in collaborazione da un piccolo team, con co
 ---
 
 ## 📁 **Organizzazione delle cartelle**
-
+dataset/
+├── train/
+│   ├── images/
+│   ├── labels/
+├── val/
+│   ├── images/
+│   ├── labels/
+├── data.yaml
+├── frames/ (cartella contenente frame dei video)
+├── video/  (cartella video )
+├── weapon/ (cartella con le immagini ritagliate con le armi)
+│   ├── knife/
+│   ├── knife_augmented/   (cartella da ampliare con "amplia_dataset.py")
+│   ├── pistol/
+│   ├── pistol_augmented/  (cartella da ampliare con "amplia_dataset.py")
+│   ├── rifles/
+│   ├── rifles_augmented/  (cartella da ampliare con "amplia_dataset.py")
